@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HyperLinks
+        </title>
+        <!--Using CSS-->
+        <style>
+            
+            a:link{
+                color:brown;
+            }
+            a:visited{
+                color:tomato;
+            }
+            a:hover{
+                color:yellow;
+                font-size: 100px;
+                transition: 3s;
+                transform: scale(200px) rotateX('360deg');
+
+            }
+            a:active{
+                color:pink;
+            }
+            #box {
+                transform: scale(200px) rotateX('360deg');
+            }
+        </style>
+    </head>
+    <body link="green" vlink="0000FF" alink="orange">     <!--Default Style Of Links-->
+        <a href="https://google.com" target="_blank" title="click here to open google">
+            Google        
+        </a>
+        <!--Link with Box-->
+        <a href="https://youtube.com" target="_blank" title="click here to open YouTube">
+            <div style="height: 50px;width: 200px; background-color:blue;">
+                YouTube
+            </div> 
+        <!--Link with Image-->      
+        </a>
+        <a href="https://daraz.com.np" title="navigate To Daraz" target="_blank">
+            <img src="https://play-lh.googleusercontent.com/jpHf1z2spJxaPMFSVkQecb8TrgINjiw8jSwz8UN-E9qwvCQWiLF_ep_HnP8KBudQmOE6" alt="daraz image "/>
+        </a>
+        <!--button as link-->
+     <br><button onclick="window.location='https://hianime.to'">
+        Go To HiAnime
+     </button>
+     <!--send mail using link.email-->
+     <br><a href="mailto:khatakhomuskan35@gmail.com?subject=try&body=aayo ki aayenaa" title="send mail">
+        Send mail
+     </a>
+     <div id="box" style="height: 500px; width: 500px; background-color: chocolate;"> This text is about to rotate</div>
+    </body>
+</html>
