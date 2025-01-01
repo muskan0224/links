@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
+    font-family: serif;
 }
 /* for service.html */
 
@@ -20,7 +21,7 @@ body{
     height: 70px;
     width: 100%;
     color: black;
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     /* horizontally center */
     justify-content: center; 
@@ -43,9 +44,11 @@ body{
     background-color: whitesmoke;
 
 }
-.servicebody{
+#dis{
+    justify-content: center;
+    align-items: center;
     text-align: center;
-
+    color: rgb(99, 99, 99);
 }
 .servicetitle{
         height: 300px;
