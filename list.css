@@ -19,9 +19,11 @@ body{
 }
 #main-body{
     margin: 10px;
+    /* alignns boxes horizontally */
     display: flex;
+    /* gives equal space in between the boxes */
     justify-content: space-around;
-
+/* or use "align-items:center; and justify-content:space-evenly; */
 }    
 /* class selector */
 .Card{
