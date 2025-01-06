@@ -1,0 +1,51 @@
+table,th,td{
+    border: 2px solid gray;
+    text-align: center;
+    font-size: 32px;
+}
+/* table size */
+table{
+    width: 100%;
+    height: 400px;
+}
+/* row size */
+tr{
+    height: 100px;
+}
+/* column width(width) */
+th{
+    width: 120px;
+}
+td{
+    width: 120px;
+}
+/* specific column width */
+.manage{
+    width: 30%;
+    background-color: rgb(30, 74, 89);
+}
+/* specific row height */
+#last-row{
+    height: 80px;
+}
+/* Table background color */
+table{
+    background-color: teal;
+    /* table background image */
+    background-image: url("");
+}
+/* all row background */
+tr{
+    background-color: purple;
+}
+/* all cells background */
+th,td{
+    background-color: rgb(144, 144, 239);
+}
+/* table border radius */
+table{
+    border-radius:20px ;
+}
+#cap{
+    background-color: lavender;
+}
