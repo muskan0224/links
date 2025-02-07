@@ -1,0 +1,13 @@
+tr:nth-child(odd){
+    background-color: yellow;
+}
+tr:nth-child(even){
+    background-color: beige;
+}
+th,td{
+    border-bottom: 3px solid gray;
+    padding: 30px;
+}
+table{
+    border-spacing:0px;
+}

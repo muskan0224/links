@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link type="text/css" rel="stylesheet" href="./t.css"> 
+
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <th> Roll </th>
+            <!-- to create two sub columns -->
+            <th colspan="2"> Full Name</th>
+            <th> Age </th>
+        </tr>
+        <tr> 
+            <td> 1.</td>
+            <td> Ram</td>
+            <td> Karki</td>
+            <td> 28</td>
+        </tr>
+        <tr> 
+            <td> 2.</td>
+            <td> Sita</td>
+            <td> Karki</td>
+            <td> 25</td>
+        </tr>
+    </table>
+    <br><br>
+    <table border="1"> 
+        <tr>
+            <th> Roll</th>
+            <td> 1.</td>
+            <td> 2.</td>
+        </tr>
+        <tr>
+            <!-- to create two sub rows -->
+            <th rowspan="2"> Full Name</th>
+            <td> Ram</td>
+            <td> Sita</td>
+        </tr>
+        <tr> 
+            <td> Karki</td>
+            <td> Karki</td>
+        </tr>
+        <tr>
+            <th> Age</th>
+            <td> 28</td>
+            <td> 25</td>
+        </tr>
+    </table>
+    <br><br>
+    <table border="2">
+        <!-- to give style  -->
+        <colgroup>
+            <col span="1" style="background-color: pink ;">
+            <!-- <col span="1" style="background-color: rgb(85, 152, 203);">
+            <col span="1" style="background-color: cornflowerblue;"> -->
+            <col span="2" >
+            <col span="1" style="background-color: rgb(192, 107, 107);">
+        </colgroup>
+        <!-- Always put <thead> and <tfoot> above <tbody> -->
+        <thead>
+            <tr> 
+                <th colspan="4"> Student details</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">  Note: This is test data.</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr> 
+                <th>Roll</th>
+                <th colspan="2"> Full Name</th>
+                <th> Age</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td> Ram</td>
+                <td> Karki</td>
+                <td> 28</td>
+            </tr>
+            <tr> 
+                <td>2.</td>
+                <td> Sita</td>
+                <td> Karki</td>
+                <td> 25</td>
+            </tr>
+        </tbody>
+    </table>
+    <br> <br>
+    <table border="2">
+        <!-- css  -->
+        <colgroup>
+            <col span="1" style="background-color: pink ;">
+            <col span="1" style="background-color: rgb(85, 152, 203);">
+            <col span="1" style="background-color: cornflowerblue;">
+            <col span="1" style="background-color: rgb(192, 107, 107);">
+        </colgroup>
+        <!-- Always put <thead> and <tfoot> above <tbody> -->
+        <thead>
+            <tr> 
+                <th colspan="4"> Student details</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">  Note: This is test data.</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr> 
+                <th>Roll</th>
+                <th colspan="2"> Full Name</th>
+                <th> Age</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td> Ram</td>
+                <td> Karki</td>
+                <td> 28</td>
+            </tr>
+            <tr> 
+                <td>2.</td>
+                <td> Sita</td>
+                <td> Karki</td>
+                <td> 25</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+     <table> 
+        <tr> 
+            <th> S.N</th>
+            <th> fruits</td>
+            <th> weight</td>
+        </tr>
+        <tr> 
+            <td> 1</td>
+            <td> apple</td>
+            <td> orange</td>
+        </tr>
+        <tr> 
+            <td>2</td>
+            <td> 10 kg</td>
+            <td> 50 kg</td>
+        </tr>
+      </table>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="./home.html">
+    <input type="text" name=" Fullname" placeholder="Enter your Fullname" required/>
+    <input type="email" name="Enamil Address" placeholder="Enter your email address" required="true"/>
+    <input type="number" name="Age" placeholder="Enter your age" required/>
+    <input type="password" name="Password" placeholder="Enter your password" required/>
+    <input type="submit" value="Register"/>
+                       <!--value=Default content of every input field  -->
+                       <!-- egurl=http://127.0.0.1:5500/home.html?+Fullname=Muskan+Shrestha&Enamil+Address=khatakhomuskan35%40gmail.com&Age=18&Password=123456
+                        the data after '?' is parameter query -->
+    </form>
+    <form>
+    <!-- color picker -->
+      <input type="color" name="background"/>
+    <!-- date picker -->
+      <input type="date" name="birthdate"/>
+    <!-- time picker -->
+      <input type="time" name="nepaltime"/>
+    <!-- dropdown -->
+     <select type="gender">
+     <option value="Male">Male</option>
+     <option value="female"> Female</option>
+     <option value="others">Others</option>
+         <!-- To select initially -->
+          <option value="female" selected>
+           Female
+          </option>
+    </select>
+    <!-- checkbox -->
+      <label for="cb">
+        <input type="checkbox" 
+         name="tc"
+         value="true" />
+          Terms and Conditions
+      </label><br>
+      <!--Radio Button  -->
+       <label for="g">select gender</label>
+       <br><br>
+       <input id="g" type="radio" name="gender" value="female"/>Female
+       <input id="g" type="radio" name="gender" value="male"/>Male
+       <input id="g" type="radio" name="gender" value="others"/>Others
+       
+    </form> 
+</body>
+</html>

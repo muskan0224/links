@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <!-- <link type="css/text"
+    rel="stylesheet" href="./iframe.css"/> -->
+</head>
+<body>
+    <!-- webpage inside a webpage -->
+     <!-- <iframe
+     src="https://google.com"
+     height="200"
+     width="400"
+    </iframe -->
+       <table border="2" height="700px" width="100%">
+        <tr>
+        <th>
+           <a href="./home.html"
+           target="myframe">Home</a>
+         </th> 
+       <th rowspan="4">
+            <iframe style="height: 100%; width: 100%;"
+               src="./home.html"
+               name="myframe"
+               src="./profile.html"
+               src="./setting.html"
+               src="./feeds.html">
+           </iframe>
+       </th>
+        <tr>
+         <th>
+           <a href="./profile.html"
+           target="myframe">Profile</a>
+         </th>
+        </tr>
+        <tr>
+         <th>
+           <a href="./setting.html"
+           target="myframe"> Setting</a>
+         </th>
+        </tr>
+        <tr>
+            <th>
+          <a href="./feeds.html"
+           target="myframe">Feeds</a>
+           </th>
+         </tr>  
+         </tr>
+     </table>
+</body>
+</html>
